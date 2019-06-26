@@ -1,9 +1,9 @@
 <template>
-  <div class="question-box-container">
-    <b-jumbotron>
-      <template slot="lead">{{currentQuestion.question}}</template>
+    <div class="question-box-container">
+        <b-jumbotron>
+            <template slot="lead">{{currentQuestion.question}}</template>
 
-      <hr class="my-4">
+            <hr class="my-4">
 
       <b-list-group>
         <b-list-group-item
@@ -123,7 +123,7 @@ export default {
 
 <style scoped>
 .list-group {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .list-group-item:hover {
@@ -132,7 +132,7 @@ export default {
 }
 
 .btn {
-  margin: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
 }
 
 .selected {
